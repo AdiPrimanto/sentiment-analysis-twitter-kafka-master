@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.akakom.bigdata</groupId>
+  <artifactId>ParsingData</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>maven1</name>
+  
+  <repositories>
+  <repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+  </repository>
+</repositories>
+  
+  <dependencies>
+	<!-- https://mvnrepository.com/artifact/org.json/json -->
+	<dependency>
+    	<groupId>org.json</groupId>
+    	<artifactId>json</artifactId>
+    	<version>20171018</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka -->
+	<dependency>
+	    <groupId>org.apache.kafka</groupId>
+	    <artifactId>kafka_2.11</artifactId>
+	    <version>0.10.0.0</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.twitter4j/twitter4j-stream -->
+	<dependency>
+	    <groupId>org.twitter4j</groupId>
+	    <artifactId>twitter4j-stream</artifactId>
+	    <version>4.0.6</version>
+	</dependency>
+	<dependency>
+ 		 <groupId>com.github.ptnplanet</groupId>
+ 		 <artifactId>Java-Naive-Bayes-Classifier</artifactId>
+ 		 <version>1.0.7</version>
+ 	</dependency>
+ 	
+<!-- https://mvnrepository.com/artifact/jfree/jfreechart -->
+<dependency>
+    <groupId>jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.0.13</version>
+</dependency>
+
+
+
+
+ 	
+	
+  </dependencies>
+</project>
